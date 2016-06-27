@@ -618,9 +618,14 @@ a, a:link, a:visited, a:hover {
     background: $color-black;
     padding: 140px 15px;
     color: $color-white;
-
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/800x475.png');
     @media #{$desk-min} {
         padding: 180px 15px;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/2000x725.png');
     }
 
     & > .title {
@@ -702,9 +707,14 @@ a, a:link, a:visited, a:hover {
     background: $color-black;
     color: $color-white;
     line-height: 1.8;
-
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/800x475.png');
     @media #{$desk-min} {
         text-align: right;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/2000x675.png');
     }
 
     .quote-wrapper {
