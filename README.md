@@ -12,6 +12,8 @@ Also I avoided using certain HTML5 based tags like the nav and footer simply bec
 issues.  I know that only IE10+ was needed for support, but I still thought it better to be safe in this scenario and just use
 ID's for them for now.
 
+I generally prefer to use Sass, but have plenty of experience with LESS as well as just writing everything as plain CSS. I made sure to include all files pertaining to the styling either way.
+
 Additional Notes:
 
 This page is made based off of the png images provided.
