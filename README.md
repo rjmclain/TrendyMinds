@@ -2,7 +2,8 @@
 TrendyMindsChallenge
 
 Important Notes:
-While I would consider myself fairly versatile, I tried to go with somewhat less markup in the html, which creates more altering within 
+
+While I try to be fairly versatile, I tried to go with somewhat less markup in the HTML, which creates more altering within 
 the styling.  However, this was mostly to show what could be done, even though I realize often when it comes to making things more 
 administrable within a CMS this may not always be the best choice, and the additional HTML markup wouldn't be a noticable enough 
 difference in load time for it to be an issue.
