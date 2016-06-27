@@ -1,4 +1,6 @@
-﻿function navMenuInit() {
+﻿
+/* All Nav JS */
+function navMenuInit() {
     $('#main-nav #menu-btn').on('click', function () {
         $('#main-nav').toggleClass('open');
         /*
@@ -26,7 +28,7 @@
 
 }
 
-
+/* Search Related JS */
 function searchInit() {
     $('#top-nav .search-btn').on('click', function () {
         $('.search-overlay').fadeIn();
@@ -38,7 +40,10 @@ function searchInit() {
 }
 
 
-
+/* 
+ * Document ready may not be needed since I referenced the js at the end of the page
+ * but it still helps to keep things contained
+ */
 $(document).ready(function () {
     navMenuInit();
     searchInit();
